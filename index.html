@@ -22,10 +22,16 @@
             overflow: hidden;
         }
 
+        header {
+            background-color: #353535; 
+        }
+
+        header > h1 {
+            color: whitesmoke;
+        }
+
         main {
             background-color: rgba(245, 245, 245, 0.301);
-            height: 100vh;
-            width: 100vw;
 
             display: flex;
             flex-flow: row nowrap;            
@@ -69,6 +75,9 @@
     </style>
 </head>
 <body>
+    <header>
+        <h1>MarleiGS</h1>
+    </header>
     <main>
         <section>
             <h1>MarleiGS</h1>
@@ -82,6 +91,14 @@
             </h2>
         </section>
     </main>
+    <p>Link: 
+        <a 
+        href="assets/Apostila10.pdf" 
+        target="_blank" 
+        rel="noopener" 
+        download="Apostila10.pdf" 
+        type="application/pdf"
+        >Flexbox</a></p>
     <footer>
         <p>Desenvolvido por <a href="marlei.github.io/MarleiGS/" target="_blank" rel="noopener">MarleiGS</a>&reg;</p>
     </footer>
