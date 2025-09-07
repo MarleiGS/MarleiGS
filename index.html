@@ -5,86 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MarleiGS</title>
 
-    <link rel="shortcut icon" href="assets/MarleiGS-02.ico" type="image/x-icon">
-
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/marleigs_css.css">
+    <link rel="shortcut icon" href="assets/MarleiGS_Frc.ico" type="image/x-icon">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: monospace, Arial, Helvetica, sans-serif;
-        }
-
-        body {
-            background-color: whitesmoke;
-            overflow: hidden;
-        }
-
-        header {
-            background-color: #353535;
-            display: flex;
-        }
-
-        header > h1 {
-            color: whitesmoke;
-        }
-
-        main {
-            background-color: rgba(245, 245, 245, 0.301);
-
-            display: flex;
-            flex-flow: row nowrap;            
-            justify-content: center;            
-            align-items: center;
-        }
-
-        section {
-            height: 400px;
-            width: 400px;
-            text-align: center;
-            border-radius: 15px;
-            box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
-        }
-
-        h1 {
-            font-size: 3.5em;
-            text-shadow: 0 0 8px rgba(0, 0, 0, 0.45);
-        }
-
-        h2 { /*O tamanho da fonte H2 em HTML é 1,5 em.*/
-            font-size: 1.3em;
-        }
-
-        img {
-            border-radius: 50%;
-            background-color: black;
-        }
-
-        footer {
-            position: absolute;
-            bottom: 0;
-            width: 100vw;
-
-            background-color: #353535;            
-            color: whitesmoke;
-
-            text-align: center;
-            padding: 15px 0;
-        }
-    </style>
 </head>
 <body>
     <header>
-        <img src="assets/Marlei (2) R-50x50.png" alt="MarleiGS">
-        <img src="assets/Marlei (2) Rc-50x50.png" alt="MarleiGS">
-        <h1>MarleiGS</h1>
+        <span>
+            <img src="assets/MarleiGS_R-50x50.png" alt="Marlei South Park redonda">
+            <h1 class="font">MarleiGS</h1>
+        </span>
+        <nav>
+            <a href="#">Skill</a>
+            <a href="#">Projetos</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contatos</a>
+            <a id="button1" href="assets/marleigs_cv.pdf" target="_blank" rel="noopener" type="application/pdf">CV Download</a>
+        </nav>        
     </header>
+
     <main>
         <section>
             <h1>MarleiGS</h1>
-            <img src="assets/MarleiGS-01.jpg" alt="MarleiGS South Park">
+            <img src="assets/MarleiGS_Q-260x260.png" alt="MarleiGS South Park">
             <h2>
                 <i class='bx bxs-error bx-flashing bx-md'></i>
 
@@ -92,27 +36,23 @@
                 
                 <i class='bx bx-hard-hat bx-md'></i>
             </h2>
+            <h2>Links: <a href="#" target="_blank" rel="noopener">Flexbox - NÃO DISPONIVEL NO MOMENTO</a></h2>
         </section>
     </main>
-    <p>Link: download direto
-        <a 
-        href="assets/Apostila10.pdf" 
-        target="_blank" 
-        rel="noopener" 
-        download="Apostila10.pdf" 
-        type="application/pdf"
-        >Flexbox</a>
-    </p>
-    <p>Link2: abrir arq para baixar
-        <a 
-        href="assets/Apostila10.pdf" 
-        target="_blank" 
-        rel="noopener" 
-        type="application/pdf"
-        >Flexbox</a>
-    </p>
+
     <footer>
-        <p>Desenvolvido por <a href="marlei.github.io/MarleiGS/" target="_blank" rel="noopener">MarleiGS</a>&reg;</p>
+        <div>
+            <a href="#">Instagran
+                <i class='bx bx-hard-hat bx-md'></i>
+            </a>
+            <a href="#">Facebook</a>
+            <a href="#">GitHub
+                <i class='bx bxs-error bx-flashing bx-md'></i>
+            </a>
+            <a href="#">Discord</a>
+            <a href="#">LinkedIn</a>
+        </div>
+        <p>Site desenvolvido por <a href="https://marleigs.github.io/MarleiGS/" target="_blank" rel="noopener">MarleiGS</a><sup>&copy;</sup></p>
     </footer>
 </body>
 </html>
